@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   namespace :admin do
+    get 'sessions/new'
+    get 'sessions/creare'
+    get 'sessions/destroy'
+  end
+  namespace :admin do
     resources :order_details
     resources :orders
     resources :genres

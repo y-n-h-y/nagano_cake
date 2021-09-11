@@ -1,3 +1,27 @@
 // Place all the styles related to the admin/items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  h1 {
+    padding: 80px 0 50px 0;
+    color: #222222;
+  }
+  .form {
+    width: 800px;
+    margin: 0 auto;
+    .form_group {
+      display: flex;
+      padding: 15px 0;
+      .label {
+        display: block;
+        width: 150px;
+      }
+      p {
+        width: 150px;
+      }
+    }
+  }
+}
